@@ -1,0 +1,78 @@
+.events-page{
+    background-color: #F4F4F4;
+}
+.control-box{
+    display: flex;
+
+    justify-content:center;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+    
+
+}
+
+.control-field{
+    display: flex;
+    justify-items: center;
+    gap: 7px;
+    height: 50px;
+    align-items: center;
+}
+
+.control-button{
+    border-width: 1px;
+    width: 80px;
+    padding: 4px;
+    border-radius: 5px;
+    height: 25px;
+    cursor: pointer;
+    background-color:#005c58 ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:7px;
+}
+
+.control-button i{
+    font-size: 18px;
+}
+
+.control-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 0.05s;
+
+    
+}
+
+.response-button{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    background-color: #1f2833 ;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    cursor: pointer;
+    
+}
+
+.response-button i{
+    color: white;
+}
+
+.response-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 0.05s;
+
+    
+}
+

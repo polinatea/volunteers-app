@@ -1,0 +1,22 @@
+.responses-container{
+    background-color: #F4F4F4;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    
+}
+table {
+    border: 2px solid #1f2833;
+    width: 100%;
+    height:fit-content;
+  }
+    
+  tr {
+    border-bottom: 1px solid black;
+    height: 50px;
+  }
+
+  td {
+    text-align: center;
+    
+  }
